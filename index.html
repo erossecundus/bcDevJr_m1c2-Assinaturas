@@ -9,7 +9,6 @@
         body {
             background-color: #F5F5F5;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            padding: 100px;
         }
 
         .container {
@@ -25,19 +24,19 @@
         }
 
         .header {
-            padding: 40px;
+            padding: 2.5rem;
         }
         .header-title {
             color: #006f6f;
-            font-size: 30px;
+            font-size: 2rem;
             font-weight: 700;
-            margin-bottom: 20px;
+            margin-bottom: 1.2rem;
         }
         .header-subtitle {
             color: #009E9E;
-            font-size: 18px;
+            font-size: 1.2rem;
             font-weight: 600;
-            margin: 10px 0px;
+            margin: 0.6rem 0rem;
         }
 
         .flex-container {
@@ -47,41 +46,41 @@
 
         }
 
-        .coluna1 {
+        .col1 {
             background: #006868;
             width: 50%;
-            padding: 20px;
+            padding: 1.2rem;
         }
-        .coluna2 {
+        .col2 {
             background: #008585;
             width: 50%;
-            padding: 5px 20px;
+            padding: 0.3rem 1.2rem;
         }
 
         .subscription-title {
-            font-size: 18px;
+            font-size: 1.2rem;
             text-align: center;
-            margin-bottom: 15px;
+            margin-bottom: 0.9rem;
         }
         .price {
-            font-size: 26px;
+            font-size: 1.6rem;
             font-weight: 700;
         }
         .month {
-            font-size: 14px;
+            font-size: 0.9rem;
             font-style: italic;
-            margin-left: 15px;
+            margin-left: 0.9rem;
         }
         .btn {
             margin: 20px 0px;
             width: 100%;
-            padding: 15px 32px;
+            padding: 0.9rem 2rem;
 
             border-radius: 5px;
             border: none;
             
             color: #006A6A;
-            font-size: 16px;
+            font-size: 1rem;
             background-color: #CCCCCC;
             
             cursor: pointer;
@@ -92,6 +91,26 @@
 
         .image-group {
             text-align: center;
+        }
+
+        @media screen and (max-width: 620px) {
+            html {
+                font-size: 14px;
+            }
+
+            .flex-container {
+                flex-direction: column;
+            }
+
+            .col1, .col2 {
+                width: 100%;
+                box-sizing: border-box;
+            }
+
+            .container {
+                width: 95%;
+            }
+
         }
 
         
@@ -113,7 +132,7 @@
             </div>
         </div>
         <div class="flex-container">
-            <div class="coluna1">
+            <div class="col1">
                 <div class="subscription-title">
                     Assinatura mensal:
                 </div>
@@ -128,7 +147,7 @@
                     Assine Agora
                 </button>
             </div>
-            <div class="coluna2">
+            <div class="col2">
                 <div class="image-group">
                     <object data="Ref_img/groups_white_48dp.svg" type="image/svg+xml"></object>
                 </div>
