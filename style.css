@@ -17,9 +17,28 @@ input:focus {
     outline: none;
     box-shadow: 0 0 10px #009E9E;
 }
+
 a {
     font-size: 0.8rem;
     color: #E9E9E9;
+}
+
+button {
+    margin: 1.2rem 0rem 0rem;
+    width: 100%;
+    padding: 0.9rem 2rem;
+
+    border-radius: 4px;
+    border: none;
+    
+    color: #006A6A;
+    font-size: 1rem;
+    background-color: #CCCCCC;
+    
+    cursor: pointer;
+}
+button:hover {
+    background-color: #E9E9E9;
 }
 
 .container {
@@ -81,23 +100,6 @@ a {
     font-size: 0.9rem;
     font-style: italic;
     margin-left: 0.9rem;
-}
-.btn {
-    margin: 1.2rem 0rem 0rem;
-    width: 100%;
-    padding: 0.9rem 2rem;
-
-    border-radius: 4px;
-    border: none;
-    
-    color: #006A6A;
-    font-size: 1rem;
-    background-color: #CCCCCC;
-    
-    cursor: pointer;
-}
-.btn:hover {
-    background-color: #E9E9E9;
 }
 
 .image-group {
