@@ -4,6 +4,24 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+input {
+    width: 95%;
+    height: 22px;
+    padding: 0.9rem;
+    font-size: 1.2rem;
+    border-radius: 4px;
+    border: 0;
+    margin: 10px;
+}
+input:focus {
+    outline: none;
+    box-shadow: 0 0 10px #009E9E;
+}
+a {
+    font-size: 0.8rem;
+    color: #E9E9E9;
+}
+
 .container {
     background-color: #E9E9E9;
     margin: auto;
@@ -17,7 +35,7 @@ body {
 }
 
 .header {
-    padding: 2.5rem;
+    padding: 0.9rem;
 }
 .header-title {
     color: #006f6f;
@@ -40,12 +58,12 @@ body {
 }
 
 .col1 {
-    background: #006868;
+    background-color: #006868;
     width: 50%;
     padding: 1.2rem;
 }
 .col2 {
-    background: #008585;
+    background-color: #008585;
     width: 50%;
     padding: 0.3rem 1.2rem;
 }
@@ -65,11 +83,11 @@ body {
     margin-left: 0.9rem;
 }
 .btn {
-    margin: 20px 0px;
+    margin: 1.2rem 0rem 0rem;
     width: 100%;
     padding: 0.9rem 2rem;
 
-    border-radius: 5px;
+    border-radius: 4px;
     border: none;
     
     color: #006A6A;
@@ -84,6 +102,16 @@ body {
 
 .image-group {
     text-align: center;
+}
+
+.form-register {
+    color: #F5F5F5;
+    background-color: #006868;
+    padding: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-around;
 }
 
 @media screen and (max-width: 620px) {
@@ -102,6 +130,10 @@ body {
 
     .container {
         width: 95%;
+    }
+
+    .header {
+        padding 15px;
     }
 
 }
